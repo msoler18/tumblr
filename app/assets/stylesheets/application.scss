@@ -35,7 +35,7 @@ a {
   left: 0;
   top: 0;
   height: 100%;
-  background: #88D0AD;
+  background: #28a745;
   padding: 7em 0 0 0;
   border-right: 1px solid #b8e2fe;
   
@@ -43,10 +43,10 @@ a {
     font-weight: 700;
     font-size: 2.5em;
     text-transform: uppercase;
-    color: #22747b;
+    color: #ffffff;
     text-align: center;
     &:hover{
-      color: #3d4d56;      
+      color: #dddddd;      
     }
 
   }
@@ -69,7 +69,7 @@ a {
         text-decoration: none;
         transition: all .4s ease;
         &:hover {
-          color: #3d4d56;
+          color: #dddddd;
         }
       }
     }
@@ -91,14 +91,14 @@ a {
 .button {
   outline: none;
   background: transparent;
-  border: 1.5px solid #FFF;
+  border: 1.5px solid #28a745;
   padding: .5em 2.5em;
   border-radius: 0.5em;
   &:hover {
-    border: 1px solid #333734;
-    color: #22487b;
+    border: 1px solid #218838;
+    color: #3f3939;
     a {
-      color: #22487b !important;
+      color: #28a745 !important;
     }
   }
 }
@@ -115,14 +115,14 @@ a {
   margin-left: 200px;
   #header {
     padding: 1.2em 3.5em;
-    border-bottom: 1px solid #b8e2fe;
-    background: #529FCD;
-    color: #FFF;
+    border-bottom: 1px solid #218838;
+    background: #dddddd;
+    color: #383232;
     p {
       display: inline;
     }
     a {
-      color: #FFF;
+      color: #7c7070;
       text-decoration: none;
     }
     .buttons {
@@ -142,10 +142,10 @@ a {
       a {
         font-weight: 500;
         text-decoration: none;
-        color: #529FCD;
+        color: #218838;
         font-size: 1.2em;
         &:hover {
-          color: #22487b;
+          color: #28a745;
         }
       }
     }
@@ -163,7 +163,7 @@ a {
     .title {
       font-weight: 500;
       text-decoration: none;
-      color: #529FCD;
+      color: #218838;
       font-size: 2.5em;
       margin-bottom: 0;
     }
@@ -249,7 +249,7 @@ a {
   }
   input[type="text"], input[type="email"], input[type="password"], textarea {
     width: 70%;
-    border: 1px solid #d6dce0;
+    border: 1px solid #28a745;
     border-radius: .35em;
     margin-top: 20px;
     padding: .5em 1em;
@@ -264,14 +264,14 @@ a {
   input[type="submit"] {
     outline: none;
     background: transparent;
-    border: 1px solid #d6dce0;
+    border: 1px solid #28a745;
     padding: .5em 1.5em;
     font-size: 1.1em;
     border-radius: 1.5em;
     margin-left: .5em;
     &:hover {
-      border: 1px solid #33acb7;
-      color: #33acb7;
+      border: 1px solid #218838;
+      color: #218838;
     }
   }
 }
