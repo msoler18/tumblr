@@ -7,7 +7,9 @@
       <%= truncate(post.content, length:100) %>
     </p>
     <p class="date">
-      <%= time_ago_in_words(post.created_at) %> ago
+      <%= time_ago_in_words(post.created_at) %> ago | 
+      <%= post.comments.count  %>
+      <%= 'Comment'.pluralize(post.comments.count) %>
     </p>
   </div>
 <% end %>
